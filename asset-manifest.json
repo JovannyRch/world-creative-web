@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/world-creative-web/static/css/main.c6a6caaf.css",
-    "main.js": "/world-creative-web/static/js/main.627aac41.js",
+    "main.js": "/world-creative-web/static/js/main.8ebd8d0f.js",
     "static/js/787.d8fa7012.chunk.js": "/world-creative-web/static/js/787.d8fa7012.chunk.js",
     "static/media/revicons.eot": "/world-creative-web/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/world-creative-web/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/world-creative-web/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/world-creative-web/index.html",
     "main.c6a6caaf.css.map": "/world-creative-web/static/css/main.c6a6caaf.css.map",
-    "main.627aac41.js.map": "/world-creative-web/static/js/main.627aac41.js.map",
+    "main.8ebd8d0f.js.map": "/world-creative-web/static/js/main.8ebd8d0f.js.map",
     "787.d8fa7012.chunk.js.map": "/world-creative-web/static/js/787.d8fa7012.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6a6caaf.css",
-    "static/js/main.627aac41.js"
+    "static/js/main.8ebd8d0f.js"
   ]
 }
