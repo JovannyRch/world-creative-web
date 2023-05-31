@@ -47,8 +47,8 @@ const linkVideos = [
 
 const HomePage = () => {
     return (
-       <div>
-        <Carousel responsive={responsive} >
+        <Layout>
+            <Carousel responsive={responsive} >
                 {
                     linkVideos.map((item) => (<Card component="li" key={item.title} sx={{ minWidth: 300, height: 400, flexGrow: 1, paddingX: 10 }}>
                         <CardCover>
@@ -69,7 +69,7 @@ const HomePage = () => {
                 }
 
             </Carousel>
-       </div>
+        </Layout>
     )
 }
 

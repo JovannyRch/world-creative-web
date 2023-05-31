@@ -1,8 +1,7 @@
 import React from 'react';
 import { Menu } from "@mui/icons-material"
-import { AppBar, Box, Divider, Drawer, IconButton, List, ListItem, ListItemButton, Toolbar, Typography } from "@mui/material"
+import { AppBar, Box, Divider, Drawer, IconButton, Link, List, ListItem, ListItemButton, Toolbar, Typography } from "@mui/material"
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 const drawerWidth = 320;
 const navItems = [
@@ -54,7 +53,7 @@ function Layout({ children }) {
                     </ListItem>
                 ))}
             </List>
-        </Box >
+        </Box>
     );
 
     return (
@@ -78,13 +77,6 @@ function Layout({ children }) {
                         >
                             World Creative
                         </Typography>
-                        {/* <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-              {navItems.map((item) => (
-                <Button key={item} sx={{ color: '#fff' }}>
-                  {item}
-                </Button>
-              ))}
-            </Box> */}
                     </Toolbar>
                 </AppBar>
                 <Box component="nav">
