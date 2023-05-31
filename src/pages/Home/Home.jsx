@@ -32,15 +32,15 @@ const linkVideos = [
         title: 'Video 1'
     },
     {
-        link: 'https://www.youtube.com/embed/8wJcP9wKzBU',
+        link: 'https://www.youtube.com/embed/Li0AOfGKmg4',
         title: 'Video 2'
     },
     {
-        link: 'https://www.youtube.com/embed/8wJcP9wKzBU',
+        link: 'https://www.youtube.com/embed/ga6gI0Pewto',
         title: 'Video 3'
     },
     {
-        link: 'https://www.youtube.com/embed/8wJcP9wKzBU',
+        link: 'https://www.youtube.com/embed/kofy-z0y0iA',
         title: 'Video 4'
     },
 ]
