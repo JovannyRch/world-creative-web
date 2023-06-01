@@ -31,14 +31,14 @@ const casosDeExito = [
         title: 'Steve Jobs',
         description: `El famoso fundador de Apple trabajó en un inicio para Atari. En 1976 conoció al programador Steve Wozniak, y juntos crearon, desde un garaje, las computadoras Apple.
         En 1984 diseñaron la primera Macintosh, la computadora personal que usaba una interfaz gráfica. A pesar de sus innovaciones, Jobs renunció a Apple. Tras esto, creó Next Computers, que Apple compró más tarde por 429 millones de dólares, con lo cual Jobs regresó a la compañía como director ejecutivo.`,
-        image:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/1024px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg'
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/1024px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg'
     },
     {
         title: 'Bill Gates',
         description: `Bill Gates se matriculó en la Universidad de Harvard, posteriormente abandonó sus estudios y junto con Steve Ballmer creó Microsoft, en 1976. Después, se asociaron con algunos negocios para obtener el capital que necesitaban con el fin de fabricar sus propios productos y software. 
 
         En 1980, IBM se acercó a Microsoft y les pidió que desarrollaran un código para su computadora BASIC. Así se creó MS-DOS y esto convirtió a Microsoft en una figura sobresaliente en la industria, en el estándar en tecnología informática y en uno de los negocios más relevantes del mundo.`
-        ,image:'https://upload.wikimedia.org/wikipedia/commons/a/a8/Bill_Gates_2017_%28cropped%29.jpg',
+        , image: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Bill_Gates_2017_%28cropped%29.jpg',
     },
     {
         title: 'Roger L. Easton',
@@ -84,6 +84,10 @@ const linkVideos = [
         link: 'https://www.youtube.com/embed/kofy-z0y0iA',
         title: 'Video 4'
     },
+    {
+        link: 'https://www.youtube.com/embed/Mad7KWEe8wQ',
+        title: 'Video 5'
+    },
 ]
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -92,7 +96,7 @@ const Item = styled(Paper)(({ theme }) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    minHeight: 500, 
+    minHeight: 500,
 }));
 
 const HomePage = () => {
@@ -115,7 +119,7 @@ const HomePage = () => {
                 Casos de éxito
             </Typography>
 
-            <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}  style={{ marginTop: 20, }}>
+            <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }} style={{ marginTop: 20, }}>
                 {casosDeExito.map((caso, index) => (
                     <Grid item xs={8} sm={4} md={4} key={index}>
                         <Item>
@@ -128,7 +132,7 @@ const HomePage = () => {
                             <Typography variant="body2" gutterBottom>
                                 {caso.description}
                             </Typography>
-                           
+
                         </Item>
                     </Grid>
                 ))}
